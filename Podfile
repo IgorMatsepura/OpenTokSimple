@@ -6,7 +6,6 @@ target 'OpenTokSimple' do
   use_frameworks!
 
   # Pods for OpenTokSimple
-  pod 'Firebase'
   pod 'OpenTok'
 
 end
