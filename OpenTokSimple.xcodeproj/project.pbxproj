@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1A3CE08866B0902E753810 /* Pods_OpenTokSimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66AD99E56076ABCF26EB281 /* Pods_OpenTokSimple.framework */; };
+		D1B6D1A929E527A80067C5ED /* OpenTokSimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B6D1A829E527A80067C5ED /* OpenTokSimpleApp.swift */; };
+		D1B6D1AB29E527A80067C5ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B6D1AA29E527A80067C5ED /* ContentView.swift */; };
+		D1B6D1AD29E527A80067C5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B6D1AC29E527A80067C5ED /* Assets.xcassets */; };
+		D1B6D1B029E527A80067C5ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B6D1AF29E527A80067C5ED /* Preview Assets.xcassets */; };
+		D1F01FE729E5558D001F3FAB /* OpenTokManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F01FE629E5558D001F3FAB /* OpenTokManager.swift */; };
+		D1F01FEA29E55948001F3FAB /* OTErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F01FE929E55948001F3FAB /* OTErrorWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1233589C4D1D38A16F002C7E /* Pods-OpenTokSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSimple.debug.xcconfig"; path = "Target Support Files/Pods-OpenTokSimple/Pods-OpenTokSimple.debug.xcconfig"; sourceTree = "<group>"; };
+		20A312AE7D86830549972C02 /* Pods-OpenTokSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSimple.release.xcconfig"; path = "Target Support Files/Pods-OpenTokSimple/Pods-OpenTokSimple.release.xcconfig"; sourceTree = "<group>"; };
+		B66AD99E56076ABCF26EB281 /* Pods_OpenTokSimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTokSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B6D1A529E527A80067C5ED /* OpenTokSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTokSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B6D1A829E527A80067C5ED /* OpenTokSimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokSimpleApp.swift; sourceTree = "<group>"; };
+		D1B6D1AA29E527A80067C5ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1B6D1AC29E527A80067C5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1B6D1AF29E527A80067C5ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1F01FE629E5558D001F3FAB /* OpenTokManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokManager.swift; sourceTree = "<group>"; };
+		D1F01FE929E55948001F3FAB /* OTErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTErrorWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B6D1A229E527A80067C5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1A3CE08866B0902E753810 /* Pods_OpenTokSimple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794EA47BC1EE4F1B6B816FD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1233589C4D1D38A16F002C7E /* Pods-OpenTokSimple.debug.xcconfig */,
+				20A312AE7D86830549972C02 /* Pods-OpenTokSimple.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A48369540977D6B7CEE247C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B66AD99E56076ABCF26EB281 /* Pods_OpenTokSimple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1B6D19C29E527A70067C5ED = {
+			isa = PBXGroup;
+			children = (
+				D1B6D1A729E527A80067C5ED /* OpenTokSimple */,
+				D1B6D1A629E527A80067C5ED /* Products */,
+				794EA47BC1EE4F1B6B816FD4 /* Pods */,
+				7A48369540977D6B7CEE247C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B6D1A629E527A80067C5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B6D1A529E527A80067C5ED /* OpenTokSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B6D1A729E527A80067C5ED /* OpenTokSimple */ = {
+			isa = PBXGroup;
+			children = (
+				D1F01FE829E5592A001F3FAB /* Helper */,
+				D1B6D1A829E527A80067C5ED /* OpenTokSimpleApp.swift */,
+				D1B6D1AA29E527A80067C5ED /* ContentView.swift */,
+				D1F01FE629E5558D001F3FAB /* OpenTokManager.swift */,
+				D1B6D1AC29E527A80067C5ED /* Assets.xcassets */,
+				D1B6D1AE29E527A80067C5ED /* Preview Content */,
+			);
+			path = OpenTokSimple;
+			sourceTree = "<group>";
+		};
+		D1B6D1AE29E527A80067C5ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1B6D1AF29E527A80067C5ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1F01FE829E5592A001F3FAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D1F01FE929E55948001F3FAB /* OTErrorWrapper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1B6D1A429E527A80067C5ED /* OpenTokSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B6D1B329E527A80067C5ED /* Build configuration list for PBXNativeTarget "OpenTokSimple" */;
+			buildPhases = (
+				6DF1AB2BA849AC41281C9277 /* [CP] Check Pods Manifest.lock */,
+				D1B6D1A129E527A80067C5ED /* Sources */,
+				D1B6D1A229E527A80067C5ED /* Frameworks */,
+				D1B6D1A329E527A80067C5ED /* Resources */,
+				927160DD4A97864BBFC4E872 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTokSimple;
+			productName = OpenTokSimple;
+			productReference = D1B6D1A529E527A80067C5ED /* OpenTokSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B6D19D29E527A70067C5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D1B6D1A429E527A80067C5ED = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D1B6D1A029E527A70067C5ED /* Build configuration list for PBXProject "OpenTokSimple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1B6D19C29E527A70067C5ED;
+			productRefGroup = D1B6D1A629E527A80067C5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1B6D1A429E527A80067C5ED /* OpenTokSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B6D1A329E527A80067C5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B6D1B029E527A80067C5ED /* Preview Assets.xcassets in Resources */,
+				D1B6D1AD29E527A80067C5ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DF1AB2BA849AC41281C9277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTokSimple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927160DD4A97864BBFC4E872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSimple/Pods-OpenTokSimple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTokSimple/Pods-OpenTokSimple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenTokSimple/Pods-OpenTokSimple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B6D1A129E527A80067C5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F01FE729E5558D001F3FAB /* OpenTokManager.swift in Sources */,
+				D1F01FEA29E55948001F3FAB /* OTErrorWrapper.swift in Sources */,
+				D1B6D1AB29E527A80067C5ED /* ContentView.swift in Sources */,
+				D1B6D1A929E527A80067C5ED /* OpenTokSimpleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1B6D1B129E527A80067C5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1B6D1B229E527A80067C5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1B6D1B429E527A80067C5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1233589C4D1D38A16F002C7E /* Pods-OpenTokSimple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenTokSimple/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XSVATSQ6N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To conduct a video call, access to the camera needs to be granted.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To conduct a video call, access to the microphone needs to be granted.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.matsepura.OpenTokSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1B6D1B529E527A80067C5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A312AE7D86830549972C02 /* Pods-OpenTokSimple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenTokSimple/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XSVATSQ6N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To conduct a video call, access to the camera needs to be granted.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To conduct a video call, access to the microphone needs to be granted.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.matsepura.OpenTokSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1B6D1A029E527A70067C5ED /* Build configuration list for PBXProject "OpenTokSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B6D1B129E527A80067C5ED /* Debug */,
+				D1B6D1B229E527A80067C5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B6D1B329E527A80067C5ED /* Build configuration list for PBXNativeTarget "OpenTokSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B6D1B429E527A80067C5ED /* Debug */,
+				D1B6D1B529E527A80067C5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B6D19D29E527A70067C5ED /* Project object */;
+}
